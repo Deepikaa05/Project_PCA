@@ -145,7 +145,7 @@ for i in range(16):
     axes[i].imshow(C[i],cmap="Greys")
     
 
-#Apllying Divtionary Learning
+#Applying Divtionary Learning
 
 dl = DictionaryLearning(16)
 F= dl.fit(np.abs(A))
